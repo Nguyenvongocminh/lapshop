@@ -1,0 +1,24 @@
+.navbar {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgb(9, 93, 65);
+    display: flex;
+    color: white;
+    .icon{
+        width: 70%;
+        img{
+            margin-left: 10px;
+             width: 5%;
+        }
+    }
+    .link{
+        width: 30%;
+        float: right;
+        display: flex;
+        p{
+            margin: 15px;
+            cursor: pointer;
+        }
+
+    }
+}
